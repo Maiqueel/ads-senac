@@ -25,7 +25,7 @@ for(i = 0; i < disciplina.length; i++) {
 }
 
 console.log()
-console.log(`Outros conceitos`)
+console.log(`Outros conceitosww `)
 console.log("-".repeat(25))
 for(i = 0; i < disciplina.length; i++) {
     if(conceito[i] !== filtroPesquisa) {
