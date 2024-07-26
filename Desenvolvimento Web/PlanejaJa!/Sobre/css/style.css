@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde-escuro: #2E524D;
+    --verde-claro: #487C75;
+    --verde-descricao: #35605A;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgba(241, 255, 241, 0.583);
+    height: 5.3125rem;
+    backdrop-filter: blur(3.8499999046325684px);
+}
+
+.header--nav {
+    width: 77vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--nav--ulli {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.header--navtext {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--verde-descricao);
+}
+
+.header--button {
+    background-color: var(--verde-descricao);
+    color: white;
+    border-radius: 4.25rem;
+    padding: 1rem 3.1875rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.bg-fruits {
+    width: 100%;
+    background-image: url(../img/frutas-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -150px;
+}
+
+/*  */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 77vw;
+}
+
+.sobre-planeja-container {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.sobre-cima-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.sobre--h2-principal {
+    color: #2E524D;
+    font-family: "Inter", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.sobre--p-principal {
+    color: #35605A;
+    font-family: "Kurale", serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 121%; /* 1.66375rem */
+    letter-spacing: -0.03025rem;
+}
+
+.numeros--destaque {
+    display: flex;
+    flex-direction: row;
+    gap: 1.875rem;
+}
+
+.card-numeros {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 0.5rem;
+    background: #22262F;
+    padding: 0.7rem 1.5rem;
+}
+
+.card-title {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.card-text {
+    color: #FFF;
+    font-family: "Inria Serif", serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    letter-spacing: -0.02475rem;
+}
+
+/*  */
+
+.nutricionistas-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 77vw;
+    gap: 1rem;
+}
+
+.nutricionistas-cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nutricionista-card {
+    background-color: #FCFFFC;
+    border: 1px solid #DAE2E1;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.nutricionista-card > h3 {
+    color: #000;
+    font-family: "Inria Serif", serif;
+    font-size: 1.1875rem;
+    font-weight: 700;
+}
+
+.nutricionista-card > p {
+    color: #35605A;
+    width: 17.125rem;
+    text-align: center;
+    font-family: "Inria Serif", serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.nutricionistas-ul {
+    width: 17.125rem;
+    height: 3.22413rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    list-style: none;
+    border-radius: 0.375rem;
+    background-color: var(--verde-descricao);
+    box-shadow: 0px 5.367px 8.433px 0px rgba(0, 0, 0, 0.02);
+}
+
+/*  */
+.comeco-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 77vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.comeco-container > p {
+    width: 61.5rem;
+}
+
+/*  */
+footer {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--verde-descricao);
+}
+
+.footer--nav {
+    width: 77vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer--copy {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--verde-descricao);
+    border-radius: 15px;
+}
