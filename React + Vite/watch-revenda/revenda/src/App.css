@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(3, 139, 218);
+  padding: 1rem;
+}
+
+header > img {
+  width: 200px;
+}
+
+.header-textos {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.veiculoimg {
+  width: 500px;
+}
